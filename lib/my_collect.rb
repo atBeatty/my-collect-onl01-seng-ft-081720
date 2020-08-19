@@ -2,7 +2,7 @@ collection = ['ruby', 'javascript', 'python', 'objective-c']
 
 
 def my_collect(array)
-  array do |lang|
+  array do |el|
   lang.upcase
   end
 end
