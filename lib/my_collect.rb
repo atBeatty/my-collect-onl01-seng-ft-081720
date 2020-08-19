@@ -11,5 +11,5 @@ modified_array = []
     counter += 1
   end
 
-array
+modified_array
 end
