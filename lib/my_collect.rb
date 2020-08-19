@@ -12,4 +12,3 @@ modified_array = []
 
 modified_array
 end
-
