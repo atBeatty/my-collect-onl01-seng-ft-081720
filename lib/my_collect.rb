@@ -3,7 +3,11 @@
 
 def my_collect(array)
 
-  array.each do
-    yield
+  counter = 0
+  while couner < array.length
+    yield array[i]
+    counter += 1
   end
+
+
 end
