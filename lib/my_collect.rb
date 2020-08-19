@@ -6,10 +6,10 @@ modified_array = []
 
   counter = 0
   while counter < array.length
-    yield (array[counter])
-    modified_array[counter] = array[counter]
+    modified_array << yield (array[counter])
     counter += 1
   end
 
 modified_array
 end
+
